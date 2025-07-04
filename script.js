@@ -1,5 +1,5 @@
 // 🛡️  OpenAI & HuggingFace keys –––>  अपनी key यहाँ डालें
-const OPENAI_KEY = "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";
+const OPENAI_KEY = "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";
 const HF_KEY     = "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";
 
 // UI helpers

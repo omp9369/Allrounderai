@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Allrounder AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🌟 Allrounder AI</h1>
+    <nav>
+      <button onclick="genImage()">🖼️ Image</button>
+      <button onclick="genSpeech()">🔊 Speech</button>
+      <button onclick="genVideo()">🎥 Video (demo)</button>
+    </nav>
+  </header>
+
+  <main>
+    <textarea id="prompt" placeholder="Enter your prompt here..."></textarea>
+
+    <div class="actions">
+      <button onclick="genImage()">⚙️ Generate</button>
+      <a id="downloadLink" style="display:none" download>
+        <button>⬇️ Download</button>
+      </a>
+    </div>
+
+    <div id="output" class="output-box"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
